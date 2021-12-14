@@ -20,4 +20,8 @@ public class MainActivity extends AppCompatActivity {
     public void onBtnClick(View view) {
         tvMain.setText("Juk pažadėjau!");
     }
+
+    public void onBtn2Click(View view) {
+        tvMain.setTextColor(getResources().getColor(R.color.purple_200));
+    }
 }
