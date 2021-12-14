@@ -24,6 +24,4 @@ public class MainActivity extends AppCompatActivity {
     public void onBtn2Click(View view) {
         tvMain.setTextColor(getResources().getColor(R.color.purple_200));
     }
-
-    //some code here
 }
